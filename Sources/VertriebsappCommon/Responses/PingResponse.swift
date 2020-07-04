@@ -11,4 +11,6 @@ public struct PingResponse: Codable {
 
     /** Contains "pong". */
     public var message: String? = "pong"
+    
+    init() {}
 }
