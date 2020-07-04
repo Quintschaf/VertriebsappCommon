@@ -9,6 +9,7 @@ import Foundation
 
 public struct ErrorResponse: Codable {
 
+    public var success: Bool = false
     public var error: String
 
     public init(error: String) {

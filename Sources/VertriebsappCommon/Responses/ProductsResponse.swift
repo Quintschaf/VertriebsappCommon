@@ -11,6 +11,7 @@ import Foundation
 
 public struct ProductsResponse: Codable {
 
+    public var success: Bool = true
     public var products: [Product]
 
     public init(products: [Product]) {

@@ -9,6 +9,7 @@ import Foundation
 
 public struct PingResponse: Codable {
 
+    public var success: Bool = true
     /** Contains "pong". */
     public var message: String? = "pong"
     

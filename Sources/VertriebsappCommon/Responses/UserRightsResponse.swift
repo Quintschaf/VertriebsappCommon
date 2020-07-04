@@ -8,6 +8,7 @@
 import Foundation
 
 public struct UserRightsResponse: Codable {
+    public var success: Bool = true
     public var rights: [Right]
 
     public init(rights: [Right]) {

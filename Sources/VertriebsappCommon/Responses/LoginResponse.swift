@@ -9,6 +9,7 @@ import Foundation
 
 public struct LoginResponse: Codable {
 
+    public var success: Bool = true
     public var user: User
 
     public init(user: User) {

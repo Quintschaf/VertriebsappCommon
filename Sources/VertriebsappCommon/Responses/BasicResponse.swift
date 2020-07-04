@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 public struct BasicResponse: Codable {
 
     public var success: Bool

@@ -8,6 +8,7 @@
 import Foundation
 
 public struct SingleCompanyResponse: Codable {
+    public var success: Bool = true
     public var company: CompanyModel
 
     public init(company: CompanyModel) {

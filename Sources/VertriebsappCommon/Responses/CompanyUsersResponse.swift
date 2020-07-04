@@ -9,6 +9,7 @@ import Foundation
 
 public struct CompanyUsersResponse: Codable {
 
+    public var success: Bool = true
     public var users: [User]
 
     public init(users: [User]) {
