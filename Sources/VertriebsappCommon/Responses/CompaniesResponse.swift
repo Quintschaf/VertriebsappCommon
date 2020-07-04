@@ -10,9 +10,9 @@ import Foundation
 public struct CompaniesResponse: Codable {
 
     public var success: Bool = true
-    public var companies: [CompanyModel]
+    public var companies: [Company]
 
-    public init(companies: [CompanyModel]) {
+    public init(companies: [Company]) {
         self.companies = companies
     }
 }

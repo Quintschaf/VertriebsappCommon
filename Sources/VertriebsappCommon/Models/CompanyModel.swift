@@ -9,12 +9,14 @@ import Foundation
 
 
 
-public struct CompanyModel: Codable {
+public struct Company: Codable {
 
+    public var id: Int
     public var name: String
     public var type: CompanyType
 
-    public init(name: String, type: CompanyType) {
+    public init(id: Int, name: String, type: CompanyType) {
+        self.id = id
         self.name = name
         self.type = type
     }

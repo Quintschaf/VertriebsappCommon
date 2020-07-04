@@ -9,9 +9,9 @@ import Foundation
 
 public struct SingleCompanyResponse: Codable {
     public var success: Bool = true
-    public var company: CompanyModel
+    public var company: Company
 
-    public init(company: CompanyModel) {
+    public init(company: Company) {
         self.company = company
     }
 }
