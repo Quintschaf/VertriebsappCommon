@@ -10,9 +10,9 @@ import Foundation
 public struct InventoryResponse: Codable {
 
     public var success: Bool = true
-    public var inventory: Inventory
+    public var inventory: [Inventory]
 
-    public init(inventory: Inventory) {
+    public init(inventory: [Inventory]) {
         self.inventory = inventory
     }
 }
