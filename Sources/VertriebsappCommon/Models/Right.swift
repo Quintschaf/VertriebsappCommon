@@ -20,7 +20,7 @@ public struct Right: Codable {
     public var isGiven: Bool
     public var type: RightType?
 
-    public init(id: Int, name: String, description: String?, groupId: Int, rightId: Int?, rightSubId: Int?, isGiven: Bool, type: RightType) {
+    public init(id: Int, name: String, description: String?, groupId: Int, rightId: Int?, rightSubId: Int?, isGiven: Bool, type: RightType?) {
         self.id = id
         self.name = name
         self.description = description
