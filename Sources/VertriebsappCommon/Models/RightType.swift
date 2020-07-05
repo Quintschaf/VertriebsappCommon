@@ -10,5 +10,4 @@ import Foundation
 public enum RightType: String, Codable {
     case producer = "producer"
     case merchant = "merchant"
-    case null = "null"
 }
