@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum InventoryItemStateType: String, Codable {
+public enum InventoryItemStateType: String, Codable, CaseIterable {
     case ordered = "ordered"
     case announced = "announced"
     case checkedin = "checkedin"

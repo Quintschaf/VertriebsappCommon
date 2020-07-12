@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum RightType: String, Codable {
+public enum RightType: String, Codable, CaseIterable {
     case producer = "producer"
     case merchant = "merchant"
 }

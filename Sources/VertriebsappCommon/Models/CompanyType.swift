@@ -8,7 +8,7 @@
 import Foundation
 
 
-public enum CompanyType: String, Codable {
+public enum CompanyType: String, Codable, CaseIterable {
     case producer = "producer"
     case merchant = "merchant"
 }
