@@ -10,10 +10,12 @@ import Foundation
 public struct Inventory: Codable {
 
     public var productId: Int
+    public var merchantId: Int
     public var itemsPerState: [InventoryItemStateType: [Int]]
 
-    public init(productId: Int, itemsPerState: [InventoryItemStateType: [Int]]) {
+    public init(productId: Int, merchantId: Int, itemsPerState: [InventoryItemStateType: [Int]]) {
         self.productId = productId
+        self.merchantId = merchantId
         self.itemsPerState = itemsPerState
     }
 }
